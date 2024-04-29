@@ -93,9 +93,9 @@ flutter:
     platforms:
       android:
         package: com.nian.plugin.nian_common_utils
-        pluginClass: NianConnomUtilsPlugin
+        pluginClass: NianCommonUtilsPlugin
       ios:
-        pluginClass: NianConnomUtilsPlugin
+        pluginClass: NianCommonUtilsPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
