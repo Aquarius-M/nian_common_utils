@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class NianConnomUtilsPlugin: NSObject, FlutterPlugin {
+public class NianCommonUtilsPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "nian_common_utils", binaryMessenger: registrar.messenger())
-    let instance = NianConnomUtilsPlugin()
+    let instance = NianCommonUtilsPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 
